@@ -1,0 +1,6 @@
+http:
+  protocal: "http"
+  host: "localhost"
+  port: "8083"
+  path: "prop"
+  
