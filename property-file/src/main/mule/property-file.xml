@@ -11,5 +11,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="property-fileFlow" doc:id="eb4d494c-8c96-484e-af33-7acc0d98bc09" >
 		<http:listener doc:name="Listener" doc:id="2a465e21-9a11-444c-9406-1996f0dfc37b" config-ref="HTTP_Listener_config" path="${http.path}"/>
 		<logger level="INFO" doc:name="Logger" doc:id="3466305a-e43d-402a-8177-c4735aeae565" message="hello"/>
+		<logger level="INFO" doc:name="Logger" doc:id="d0fa1d05-76a4-43ce-9d7a-2168be860ed4" message="hi"/>
+		<logger level="INFO" doc:name="Logger" doc:id="af4f2404-8f94-40af-aa76-0d1e221a3d91" message="hlo"/>
 	</flow>
 </mule>
